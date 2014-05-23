@@ -4,7 +4,7 @@ import org.apache.ibatis.annotations.Param;
 import com.spring.entity.User;
 
 public interface IUserService {
-
+	
 	/**
 	 * 验证登录用户的帐号和密码是否正确
 	 * 

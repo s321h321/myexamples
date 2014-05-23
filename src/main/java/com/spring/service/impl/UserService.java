@@ -1,6 +1,7 @@
 package com.spring.service.impl;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.annotation.Resource;
+
 import org.springframework.stereotype.Service;
 import com.spring.entity.LoginLog;
 import com.spring.entity.User;
@@ -10,9 +11,10 @@ import com.spring.service.IUserService;
 
 @Service
 public class UserService implements IUserService {
-	@Autowired
+	public UserService(){}
+	@Resource
 	private IUserDao userdao;
-	@Autowired
+	@Resource
 	private ILoginLogDao loginlogdao;
 
 	public boolean getMatchCount(String uname, String password) {

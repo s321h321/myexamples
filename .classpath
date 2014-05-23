@@ -58,4 +58,8 @@
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/com/alibaba/druid/1.0.1/druid-1.0.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/com/google/guava/guava/17.0/guava-17.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/xss/xssprotect/0.1/xssprotect-0.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/antlr/antlr/3.5.2/antlr-3.5.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/antlr/ST4/4.0.8/ST4-4.0.8.jar"/>
 </classpath>
